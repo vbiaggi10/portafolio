@@ -5,7 +5,7 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     /* color: rgb(192, 192, 192); */
-    /* color: #fff */
+    color: #fff
   }
 
   a:link,
@@ -34,6 +34,10 @@
     text-align: right;
   }
 
+  .cover {
+    padding: 0.1rem;
+  }
+
   header nav {
     width: 100%;
     box-shadow: 0px 5px 12px -3px rgba(107, 107, 107, 1);
@@ -56,13 +60,15 @@
     margin: 2rem auto;
   }
 
-  .navbarMobile ul li a {
+  .navbarMobile ul li a,
+  .top-bar .navbar ul li a {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
   }
 
-  .navbarMobile ul li a:link {
+  .navbarMobile ul li a:link,
+  .top-bar .navbar ul li a:link {
     color: #fff;
   }
 
@@ -90,7 +96,7 @@
     position: absolute;
     top: 0;
     z-index: 1;
-    background: #183a61;
+    background: #091624;
   }
 
   .navbar {
@@ -99,18 +105,20 @@
 
   .main-cover {
     /* background: #8cc2ffa4; */
-    background-image: url('../img/fd.jpeg'); 
+    background-image: url('../img/f.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 
   .container {
-    padding: 6rem 2rem;
+    /* padding: 6rem 2rem; */
+    padding: 6rem 2rem 3rem 2rem;
   }
 
   .title1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     /* text-shadow: .2rem .2rem .2rem #33333398; */
   }
@@ -136,8 +144,8 @@
   }
 
   .about-me {
-    width: 16rem;
-    background: #183a61;
+    /* width: 22rem; */
+    background: #091624;
     text-align: center;
     /* box-shadow: .2rem .2rem .2rem #33333398; */
     box-shadow: 5px 5px 12px 0px rgba(107, 107, 107, 1);
@@ -146,7 +154,7 @@
 
   .logo-large {
     padding: 1rem;
-    height: 8rem;
+    height: 6rem;
   }
 
   .text {
@@ -154,7 +162,7 @@
   }
 
   .skill-cover {
-    background: #183a61;
+    background: #091624;
   }
 
   .skills {
@@ -162,7 +170,12 @@
   }
 
   .project-cover {
-    background: #8cc2ffa4;
+    /* background: #8cc2ffa4; */
+    background-image: url('../img/fb.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
   /* .project img { */
@@ -198,7 +211,7 @@
   }
 
   .project:hover .image {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .project:hover .middle {
@@ -207,13 +220,18 @@
 
   .project-name {
     /* background-color: #4CAF50; */
-    color: #183a61;
+    color: #000000;
     font-size: 2rem;
     padding: 16px 32px;
   }
 
+  .more{
+    color: rgb(51, 172, 57);
+    font-weight: bolder;
+  }
+
   .contact-cover {
-    background: #183a61;
+    background: #091624;
   }
 
   .contact form input,
@@ -288,6 +306,12 @@
   .cover {
     display: flex;
     justify-content: center;
+    height: 100vh;
+  }
+
+  .about-me-container {
+    /* position: absolute; */
+    margin-top: 4rem;
   }
 
   footer {
