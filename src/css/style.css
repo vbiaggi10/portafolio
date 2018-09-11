@@ -176,7 +176,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('../wp.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/wp.jpeg?alt=media&token=165ca913-2fcc-4689-881c-03c6d3ed7139');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,6 +265,10 @@
   .card-image {
     margin: 0 auto;
   }
+
+  .modal-content .col .card {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -290,10 +294,6 @@
     justify-content: center;
   }
 
-  .modal-content .col .card {
-    display: block;
-  }
-
   .about-me-container {
     margin-top: 4rem;
   }
@@ -310,7 +310,7 @@
   }
 
   .modal-content .col .card {
-    display: inline-block;
+    display: flex;
   }
 }
 
