@@ -4,7 +4,7 @@
   body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    /* color: rgb(192, 192, 192); */
+    /* color: #c0c0c0; */
     color: #fff
   }
 
@@ -69,7 +69,7 @@
   } */
 
   .fa-times {
-    color: rgb(51, 172, 57);
+    color: #33AC39;
   }
 
   .main-cover {
@@ -93,7 +93,7 @@
 
   .title1 .fa-fingerprint {
     font-size: 1.2rem;
-    color: rgb(51, 172, 57);
+    color: #33AC39;
   }
 
   .subtitle {
@@ -123,7 +123,7 @@
   }
 
   .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: rgb(51, 172, 57);
+    color: #33AC39;
     font-weight: bolder;
   }
 
@@ -133,7 +133,7 @@
     text-align: center;
     /* box-shadow: .2rem .2rem .2rem #33333398; */
     box-shadow: 5px 5px 12px 0px rgba(107, 107, 107, 1);
-    color: rgb(192, 192, 192);
+    color: #c0c0c0;
   }
 
   .logo-large {
@@ -150,7 +150,7 @@
   }
 
   .skills {
-    color: rgb(192, 192, 192);
+    color: #c0c0c0;
   }
 
   .skills ul {
@@ -158,7 +158,7 @@
   }
 
   .skills ul i {
-    font-size: 8rem;
+    font-size: 5rem;
     margin: 1rem;
   }
 
@@ -172,10 +172,19 @@
   }
 
   .project {
-    background: #000000;
+    /* background-color: #000000; */
     position: relative;
     width: 100%;
     height: 100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/wp.jpeg?alt=media&token=165ca913-2fcc-4689-881c-03c6d3ed7139');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-box-shadow: 0px 0px 58px 27px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 58px 27px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 58px 27px rgba(0, 0, 0, 1);
+    /* opacity: 0.5; */
   }
 
   .image {
@@ -193,14 +202,16 @@
     text-align: center;
   }
 
-  .project-name {
+  .project .project-name {
     color: #fff;
     font-size: 2rem;
     padding: 16px 32px;
+    font-weight: bold;
+    font-synthesis: weight
   }
 
   .more {
-    color: rgb(51, 172, 57);
+    color: #33AC39;
     font-weight: bolder;
   }
 
@@ -225,13 +236,14 @@
     width: 16rem;
   }
 
-  .form form div div input, .form form div div textarea{
+  .form form div div input,
+  .form form div div textarea {
     color: #ffffff;
   }
 
   .button {
     display: block;
-    background: rgb(51, 172, 57);
+    background: #33AC39;
     margin: 0.5rem auto;
     width: 4rem;
   }
@@ -248,6 +260,14 @@
 
   .page-footer .container .row .col {
     text-align: center
+  }
+
+  .card-image {
+    margin: 0 auto;
+  }
+
+  .modal-content .col .card {
+    display: block;
   }
 }
 
@@ -272,7 +292,6 @@
   .cover {
     display: flex;
     justify-content: center;
-    /* height: 100vh; */
   }
 
   .about-me-container {
@@ -283,6 +302,15 @@
 @media only screen and (min-width: 768px) {
   .container-cover {
     width: 45rem;
+  }
+
+  .skills ul i {
+    font-size: 8rem;
+    margin: 1rem;
+  }
+
+  .modal-content .col .card {
+    display: flex;
   }
 }
 

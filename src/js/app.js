@@ -10,7 +10,7 @@ $(document).ready(() => {
   $('.modal').modal();
 });
 
-const prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = () => {
   const currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
