@@ -9,164 +9,309 @@
   <title>Valeria Biaggi</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="main-cover" id="mainCover">
     <header>
-      <nav>
-        <div class="top-bar">
-          <a href="index.html" class="logo-container"><img src="img/logowhite.png" alt="" class="logo"></a>
-          <a id="navbarNav">
-            <i class="fas fa-bars"></i>
-          </a>
-          <div class="navbar">
-            <ul>
-              <li><a href="#mainCover">Inicio</a></li>
-              <li><a href="#skillCover">Habilidades</a></li>
-              <li><a href="#projectCover">Portafolio</a></li>
-              <li><a href="#">Contáctame</a></li>
-            </ul>
-          </div>
-        </div>
-        <div id="collapseNav" class="viewport-width viewport-height navbarMobile">
-          <div class="viewport-width right">
-            <a id="closeNavbar">
-              <i class="fas fa-times"></i>
-            </a>
-          </div>
-          <ul>
+
+      <nav class="nav-extended" id="navbar">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo logo-container"><img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/logowhite.png?alt=media&token=b38d225c-8f3e-4791-8f38-c7b1bf9adb4a"
+              alt="" class="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#mainCover">Inicio</a></li>
             <li><a href="#skillCover">Habilidades</a></li>
             <li><a href="#projectCover">Portafolio</a></li>
-            <li><a href="#">Contáctame</a></li>
+            <li><a href="#contactCover">Contáctame</a></li>
           </ul>
         </div>
       </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#mainCover">Inicio</a></li>
+        <li><a href="#skillCover">Habilidades</a></li>
+        <li><a href="#projectCover">Portafolio</a></li>
+        <li><a href="#contactCover">Contáctame</a></li>
+      </ul>
     </header>
     <div class="main-container cover">
-      <div class="container">
+      <div class="container-cover">
         <div class="title1">
           Yo soy Valeria Biaggi<i class="fas fa-fingerprint"></i>
         </div>
         <div class="subtitle">
           Ingeniera informática & desarrolladora web
         </div>
-        <div class="center about-me-container">
-          <div class="about-me">
-            <img src="img/logolargegreen.png" alt="" class="logo-large">
-            <div class="text">
-              <p>Proactiva, dinámica y autodidacta con apetencia de conocimiento, apasionada por la tecnología y
-                fascinada
-                por
-                el ámbito de diseño y desarrollo web.</p>
-              <p>Amante de los retos.</p>
-              <!-- <p>HAZLO. Y si te da miedo, hazlo con miedo. Los sueños se pueden hacer realidad cuando uno se lo propone</p> -->
+
+
+
+        <!-- <div class="row"> -->
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <div class="profile"></div>
+              <div class="paragraph">
+                <p>Desarrolladora front-end, enfocada en crear productos innovadores, dinámicos, adaptativos y de
+                  calidad. Me anticipo a las necesidades de los usuarios tomando la iniciativa.</p>
+                <p>Soy curiosa, por lo cual me gusta tomar el control de mi propio aprendizaje. Además, me considero
+                  una
+                  apasionada por la tecnología, con afición por el diseño y desarrollo web. Sobre todo, amante de los
+                  retos.</p>
+                <p>El código, principal mi aliado.</p>
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/vbiaggi10" target="_blank">github</a>
+              <a href="https://www.linkedin.com/in/valeria-biaggi" target="_blank">linkedin</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <div class="skill-cover cover" id="skillCover">
-    <div class="container">
+    <div class="container-cover">
       <div class="title2">
         Habilidades
       </div>
       <div class="subtitle">
-        MI NIVEL DE CONOCIMIENTO EN SOFTWARE
+        CONOCIMIENTO EN SOFTWARE
       </div>
       <div class="skills">
         <ul>
           <i class="fab fa-css3-alt"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-html5"></i>
+          <i class="fab fa-gitkraken"></i>
           <i class="fab fa-java"></i>
-          <i class="fab fa-node-js"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-git-square"></i>
 
-
-          <li>Javascript </li>
+          <!-- <li>Javascript </li>
           <li>HTML & CSS</li>
           <li>Firebase</li>
           <li>Java</li>
           <li>C++</li>
-          <li>Node JS</li>
+          <li>Node JS</li> -->
         </ul>
       </div>
     </div>
   </div>
+
   <div class="project-cover cover" id="projectCover">
-    <div class="container">
+    <div class="container-cover">
       <div class="title2">
         Portafolio
       </div>
       <div class="subtitle">
-        MI ÚLTIMO TRABAJO. <a href="" class="more"> VER MÁS> </a>
+        MI ÚLTIMO TRABAJO.
+        <!-- <a href="" class="more"> VER MÁS> </a> -->
       </div>
-      <div class="project-container">
-        <div class="project">
-          <img src="img/project1.png" alt="" class="image">
-          <div class="middle">
-            <div class="project-name">ReporTel</div>
+
+      <div class="carousel">
+        <!-- <a class="carousel-item" href="#one!"><img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/reportel.png?alt=media&token=95d67d08-42cd-4e08-9657-0341a76672e3"></a>
+        <a class="carousel-item" href="#two!"><img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/wework.png?alt=media&token=852359f1-e4d5-4cb7-b42d-810bfc2b871c"></a>
+        <a class="carousel-item" href="#three!"><img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/brainnet.png?alt=media&token=9708411a-2d2c-4882-8cd0-84304498150a"></a> -->
+        <a class="carousel-item modal-trigger" href="#project1">
+          <div class="project">
+            <div class="middle">
+              <div class="project-name">ReporTel</div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item modal-trigger" href="#project2">
+          <div class="project">
+            <div class="middle">
+              <div class="project-name">We work</div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item modal-trigger" href="#project3">
+          <div class="project">
+            <div class="middle">
+              <div class="project-name">BRAINNET</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div id="project1" class="modal">
+        <div class="modal-content">
+          <div class="col s12 m7">
+            <h2 class="header black-text">ReporTel</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/reportel.png?alt=media&token=95d67d08-42cd-4e08-9657-0341a76672e3">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <!-- <h3 class="black-text">ReporTel</h3> -->
+                  <p class="grey-text text-darken-4">Registra y visualiza las quejas de los usuarios de telefonía,
+                    televisión por cable o internet. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/vbiaggi10/Reportel" target="_blank">Repositorio</a>
+                  <a href="https://vbiaggi10.github.io/Reportel/src/splash.html" target="_blank">Demo</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="project">
-          <img src="img/project2.png" alt="" class="image">
-          <div class="middle">
-            <div class="project-name">We work</div>
-          </div>
-        </div>
-        <div class="project">
-          <img src="img/social.gif" alt="" class="image">
-          <div class="middle">
-            <div class="project-name">BRAINNET</div>
-          </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
         </div>
       </div>
+
+      <div id="project2" class="modal">
+        <div class="modal-content">
+          <div class="col s12 m7">
+            <h2 class="header black-text">We work</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/wework.png?alt=media&token=852359f1-e4d5-4cb7-b42d-810bfc2b871c">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class="grey-text text-darken-4">Registro y control de visitantes. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/vbiaggi10/lim-2018-01-ProyectoFinalCore" target="_blank">Repositorio</a>
+                  <a href="https://vbiaggi10.github.io/lim-2018-01-ProyectoFinalCore/src/" target="_blank">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+        </div>
+      </div>
+
+      <div id="project3" class="modal">
+        <div class="modal-content">
+          <div class="col s12 m7">
+            <h2 class="header black-text">BRAINNET</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/brainnet.png?alt=media&token=9708411a-2d2c-4882-8cd0-84304498150a">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class="grey-text text-darken-4">BRAINNET, una red social donde no solo encontrarás contenido
+                    educativo, sino que también puedes publicar y compartir contenido interesante en cuanto a la
+                    educación. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/vbiaggi10/lim-2018-05-bc-core-pm-socialnetwork" target="_blank">Repositorio</a>
+                  <a href="https://vbiaggi10.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/index.html  " target="_blank">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+        </div>
+      </div>
+
+      <!-- <div class="project-container">
+
+        <div class="project">
+          <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/reportel.png?alt=media&token=95d67d08-42cd-4e08-9657-0341a76672e3"
+            alt="" class="image">
+        </div>
+        <div class="project">
+          <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/wework.png?alt=media&token=852359f1-e4d5-4cb7-b42d-810bfc2b871c"
+            alt="" class="image">
+        </div>
+        <div class="project">
+          <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/brainnet.png?alt=media&token=9708411a-2d2c-4882-8cd0-84304498150a"
+            alt="" class="image">
+        </div>
+      </div> -->
     </div>
   </div>
+
   <div class="contact-cover cover" id="contactCover">
-    <div class="container">
+    <div class="container-cover">
       <div class="contact">
         <div class="title2">
           Contáctame
         </div>
         <div class="text">
-          <p>Si quieres contactarte conmigo</p>
-          <p>vbiaggi10@gmail.com</p>
-          <p>Tel: 943739777</p>
+          <p>¿Tienes una pregunta? ¿Feedback? ¡Increíble!</p>
+          <p>Envíe su mensaje en el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+          <p><i class="far fa-envelope"></i>  vbiaggi10@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 943739777</p>
         </div>
         <div class="form center">
+          <form id="ContactForm" action="">
+            <div>
+              <div class="input-field col s6">
+                <input id="name" type="text" class="validate" name="name">
+                <label for="name">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate" name="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+                <label for="textarea1">Mensaje</label>
+              </div>
+
+              <button class="btn waves-effect waves-light" type="button" id="submit">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+
+          
+        </div>
+
+        <!-- <div class="form center">
           <form action="">
-            <!-- <label for=""></label> -->
             <input type="text" name="" id="" placeholder="Nombre">
-            <!-- <label for=""></label> -->
             <input type="email" name="" id="" placeholder="Correo electrónico">
-            <!-- <label for=""></label> -->
             <textarea name="" id="" rows="7" placeholder="Mensaje"></textarea>
-            <!-- <input type="text" name="" id="" placeholder="Mensaje" class="txtarea"> -->
             <div class="button">
               <a>Enviar</a>
             </div>
           </form>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
-  <footer>
-    <img src="img/logogreen.png" alt="" class="logo">
-    <div class="info">
-      <!-- <a href="https://www.facebook.com/vbiaggi"><i class="fab fa-facebook-f"></i></a> -->
-      <a href="https://twitter.com/vbiaggi"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/vbiaggi10"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/valeria-biaggi-gurreonero-bb863514a"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.instagram.com/biaggiv"><i class="fab fa-instagram"></i></a>
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <img src="https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/logogreen.png?alt=media&token=6d7776ad-1b26-4c52-8fbb-222b6b310b19"
+            alt="" class="logo">
+          <span class="grey-text text-lighten-4">"Los sueños se pueden hacer realidad cuando uno se lo propone."</span>
+        </div>
+      </div>
     </div>
-    <div class="copyright">
-      <span class="">© 2018 por Valeria Biaggi.</span>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 por Valeria Biaggi.
+        <!-- <a href="https://twitter.com/vbiaggi" class="grey-text text-lighten-4 right"><i class="fab fa-twitter"></i></a> -->
+        <a href="https://github.com/vbiaggi10" target="_blank" class="grey-text text-lighten-4 right"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/valeria-biaggi" target="_blank" class="grey-text text-lighten-4 right"><i
+            class="fab fa-linkedin-in"></i></a>
+        <!-- <a href="https://www.instagram.com/biaggiv" class="grey-text text-lighten-4 right"><i class="fab fa-instagram"></i></a> -->
+      </div>
     </div>
   </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 

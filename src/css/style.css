@@ -22,13 +22,13 @@
     list-style: none;
   }
 
-  .viewport-height {
+  /* .viewport-height {
     height: 100vh;
-  }
+  } */
 
-  .viewport-width {
+  /* .viewport-width {
     width: 100vw;
-  }
+  } */
 
   .right {
     text-align: right;
@@ -38,42 +38,23 @@
     padding: 0.1rem;
   }
 
-  header nav {
-    width: 100%;
-    box-shadow: 0px 5px 12px -3px rgba(107, 107, 107, 1);
-    /* background: #8cc2ff; */
+  .nav-extended {
+    background: #0916249d;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: block;
+    transition: top 0.3s;
   }
 
+  /*  header nav {
+    width: 100%;
+    box-shadow: 0px 5px 12px -3px rgba(107, 107, 107, 1);
+
+  } */
   .logo {
     height: 3rem;
     margin: 0.5rem 1rem;
-  }
-
-  .navbarMobile ul {
-    text-align: center;
-    padding: 0;
-    margin: 3rem auto;
-  }
-
-  .navbarMobile ul li {
-    font-size: 1.4rem;
-    margin: 2rem auto;
-  }
-
-  .navbarMobile ul li a,
-  .top-bar .navbar ul li a {
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-  }
-
-  .navbarMobile ul li a:link,
-  .top-bar .navbar ul li a:link {
-    color: #fff;
-  }
-
-  #navbarNav {
-    float: right;
   }
 
   .fa-bars,
@@ -83,37 +64,24 @@
     cursor: pointer;
   }
 
-  .top-bar {
+  /* .top-bar {
     height: 3.5rem;
-  }
+  } */
 
   .fa-times {
     color: rgb(51, 172, 57);
   }
 
-  #collapseNav {
-    display: none;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    background: #091624;
-  }
-
-  .navbar {
-    display: none;
-  }
-
   .main-cover {
     /* background: #8cc2ffa4; */
-    background-image: url('../img/f.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
 
-  .container {
-    /* padding: 6rem 2rem; */
+  .container-cover {
     padding: 6rem 2rem 3rem 2rem;
   }
 
@@ -143,6 +111,22 @@
     justify-content: center;
   }
 
+  .profile {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/profile.JPG?alt=media&token=b35100fa-86f4-4df7-b500-42e5cf911a12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16rem;
+  }
+
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(51, 172, 57);
+    font-weight: bolder;
+  }
+
   .about-me {
     /* width: 22rem; */
     background: #091624;
@@ -169,39 +153,38 @@
     color: rgb(192, 192, 192);
   }
 
+  .skills ul {
+    text-align: center;
+  }
+
+  .skills ul i {
+    font-size: 8rem;
+    margin: 1rem;
+  }
+
   .project-cover {
     /* background: #8cc2ffa4; */
-    background-image: url('../img/fb.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
 
-  /* .project img { */
-  /* width: 16rem; */
-  /* height: 16rem; */
-  /* height: 10rem; */
-  /* background: #000; */
-  /* } */
   .project {
+    background: #000000;
     position: relative;
-    width: 16rem;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
   }
 
   .image {
-    opacity: 1;
-    display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
   }
 
   .middle {
     transition: .5s ease;
-    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -210,22 +193,13 @@
     text-align: center;
   }
 
-  .project:hover .image {
-    opacity: 0.4;
-  }
-
-  .project:hover .middle {
-    opacity: 1;
-  }
-
   .project-name {
-    /* background-color: #4CAF50; */
-    color: #000000;
+    color: #fff;
     font-size: 2rem;
     padding: 16px 32px;
   }
 
-  .more{
+  .more {
     color: rgb(51, 172, 57);
     font-weight: bolder;
   }
@@ -234,10 +208,9 @@
     background: #091624;
   }
 
-  .contact form input,
-  .contact form textarea,
+  .form form div div input,
+  .form form div div textarea,
   .button {
-    /* width: 15rem; */
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     padding: 0.5rem;
@@ -252,6 +225,10 @@
     width: 16rem;
   }
 
+  .form form div div input, .form form div div textarea{
+    color: #ffffff;
+  }
+
   .button {
     display: block;
     background: rgb(51, 172, 57);
@@ -259,29 +236,18 @@
     width: 4rem;
   }
 
-  footer {
-    background: #0e2136;
-    display: flex;
-    line-height: 60px;
+  .footer-copyright .container a {
+    margin: auto 0.5rem;
   }
 
-  footer i {
-    font-size: 0.8rem;
-    margin: 0 0.3rem;
+  .page-footer img {
+    height: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
-  footer a:link,
-  footer a {
-    color: #fff;
-  }
-
-  .info {
-    margin: 0 auto;
-  }
-
-  .copyright {
-    margin: 0 0.5rem;
-    font-size: 0.8rem;
+  .page-footer .container .row .col {
+    text-align: center
   }
 }
 
@@ -295,8 +261,8 @@
     font-size: 2rem;
   }
 
-  .container {
-    width: 32rem;
+  .container-cover {
+    width: 35rem;
   }
 
   .top-bar {
@@ -306,53 +272,17 @@
   .cover {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .about-me-container {
-    /* position: absolute; */
     margin-top: 4rem;
-  }
-
-  footer {
-    line-height: 100px;
-  }
-
-  footer i {
-    font-size: 1.5rem;
-    margin: 0 0.7rem;
-  }
-
-  .copyright {
-    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #navbarNav {
-    display: none;
-  }
-
-  .navbar {
-    display: block;
-  }
-
-  .navbar ul {
-    top: 0;
-    position: absolute;
-    right: 0;
-    margin: 1.40622rem;
-  }
-
-  .navbar ul li {
-    display: inline-block;
-    margin: auto 1rem;
-    font-size: 1rem;
-  }
-
-  .navbar ul li a {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+  .container-cover {
+    width: 45rem;
   }
 }
 
