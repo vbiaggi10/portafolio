@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 
 @media only screen and (min-width: 320px) {
   body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     /* color: #c0c0c0; */
-    color: #fff
+    color: #fff;
   }
 
   a:link,
@@ -69,12 +69,12 @@
   } */
 
   .fa-times {
-    color: #33AC39;
+    color: #33ac39;
   }
 
   .main-cover {
     /* background: #8cc2ffa4; */
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068');
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +93,7 @@
 
   .title1 .fa-fingerprint {
     font-size: 1.2rem;
-    color: #33AC39;
+    color: #33ac39;
   }
 
   .subtitle {
@@ -111,7 +111,7 @@
     justify-content: center;
   }
 
-  .profile{
+  .profile {
     margin: 0 auto;
     width: 8rem;
     height: 8rem;
@@ -126,8 +126,10 @@
     background-size: 16rem; */
   }
 
-  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #33AC39;
+  .card
+    .card-action
+    a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #33ac39;
     font-weight: bolder;
   }
 
@@ -157,7 +159,8 @@
     color: #c0c0c0;
   }
 
-  .skills ul, .skills div  {
+  .skills ul,
+  .skills div {
     text-align: center;
   }
 
@@ -165,13 +168,13 @@
     font-size: 3.5rem;
     margin: 1rem;
   }
-  .skills div img{
+  .skills div img {
     width: 5.5rem;
   }
 
   .project-cover {
     /* background: #8cc2ffa4; */
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc');
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +187,7 @@
   }
 
   .middle {
-    transition: .5s ease;
+    transition: 0.5s ease;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -202,7 +205,7 @@
   } */
 
   .more {
-    color: #33AC39;
+    color: #33ac39;
     font-weight: bolder;
   }
 
@@ -213,7 +216,7 @@
   .form form div div input,
   .form form div div textarea,
   .button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
     padding: 0.5rem;
     margin: 0.5rem 0;
@@ -234,7 +237,7 @@
 
   .button {
     display: block;
-    background: #33AC39;
+    background: #33ac39;
     margin: 0.5rem auto;
     width: 4rem;
   }
@@ -244,13 +247,13 @@
   }
 
   .page-footer img {
-    height: 4rem;
+    height: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .page-footer .container .row .col {
-    text-align: center
+    text-align: center;
   }
 
   .card-image {
@@ -261,6 +264,9 @@
   .project .col .card {
     display: block;
     background: #ffffffb3;
+  }
+  .soft-skills .container-cover {
+    padding-top: 0;
   }
 }
 
@@ -328,6 +334,8 @@
   }
 }
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
