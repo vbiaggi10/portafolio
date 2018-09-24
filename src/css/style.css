@@ -111,15 +111,19 @@
     justify-content: center;
   }
 
-  .profile {
+  .profile{
     margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+  }
+  .profile img {
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/profile.JPG?alt=media&token=b35100fa-86f4-4df7-b500-42e5cf911a12');
+    /* background-image: url('https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/%C3%ADndice.png?alt=media&token=a085141c-6b6b-444e-98c6-79748a8a23bf');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 16rem;
+    background-size: 16rem; */
   }
 
   .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
@@ -153,13 +157,16 @@
     color: #c0c0c0;
   }
 
-  .skills ul {
+  .skills ul, .skills div  {
     text-align: center;
   }
 
   .skills ul i {
     font-size: 3.5rem;
     margin: 1rem;
+  }
+  .skills div img{
+    width: 5.5rem;
   }
 
   .project-cover {
@@ -288,6 +295,9 @@
     font-size: 4.2rem;
     margin: 1rem;
   }
+  /* .skills div img{
+    width: 4.2rem;
+  } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -303,6 +313,9 @@
     font-size: 5rem;
     margin: 2rem;
   }
+  /* .skills div img{
+    width: 5rem;
+  } */
 
   .card-image {
     top: 0;
