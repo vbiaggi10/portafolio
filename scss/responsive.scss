@@ -11,33 +11,17 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-    #hero-area .contents h1{
+    #main .contents h1{
         font-size: 28px;
     }
     .item-boxes h4{
         font-size: 18px;
     }
-    #features .show-box img{
+    #skills .show-box img{
         display: none;
     }
-    .pricing-table .pricing-details ul li{
+    .awards.pricing-details ul li{
         font-size: 12px;
-    }
-    .counters .facts-item .fact-count h4{
-        font-size: 14px;
-    }
-    .single-team{
-        margin-bottom: 30px;
-    }
-    .meta-tags span{
-        margin-right: 3px;
-    }
-    .meta-tags span i{
-        margin-right: 0px;
-    }
-    #blog .blog-item-text h3{
-        font-size: 14px;
-        line-height: 20px;
     }
 
 }
@@ -47,17 +31,17 @@
     .section-header .section-title{
         font-size: 20px;
     }
-    #hero-area .contents{
+    #main .contents{
         padding: 100px 0 80px;
     }
-    #hero-area .contents h1{
+    #main .contents h1{
         font-size: 18px;
         line-height: 30px;
     }
-    #features .show-box img{
+    #skills .show-box img{
         display: none;
     }
-    #features .box-item .text h4{
+    #skills .box-item .text h4{
         font-size: 14px;
     }
     .controls{
@@ -67,16 +51,7 @@
             padding: 7px 7px;
         }
     }
-    .video-promo .video-promo-content h2{
-        font-size: 22px;
-    }
-    .pricing-table{
-        margin-bottom: 15px;
-    }
-    .counters .facts-item{
-        margin-bottom: 30px;
-    }
-    .single-team{
+    .awards{
         margin-bottom: 15px;
     }
     .contact-us{
