@@ -211,7 +211,7 @@ button:focus {
 }
 
 /* ==========================================================================
-   2.3 Social Iocns
+   2.3 Social Icons
    ========================================================================== */
 .social-icons {
   margin-top: 40px;
@@ -466,6 +466,15 @@ button:focus {
   margin-left: 1rem;
   position: relative;
   padding: 0px;
+}
+
+.me{
+  background: url(../img/me.jpeg)
+    no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .navbar-brand img {
