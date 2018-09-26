@@ -468,9 +468,8 @@ button:focus {
   padding: 0px;
 }
 
-.me{
-  background: url(../img/me.jpeg)
-    no-repeat;
+.me {
+  background: url(../img/me.jpeg) no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -650,11 +649,13 @@ button:focus {
   6. Skills Section Style
    ========================================================================== */
 #skills {
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc) fixed no-repeat;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc)
+    fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
+  background-size: 100% 155%;
 }
 
 #skills .section-title {
@@ -676,7 +677,7 @@ button:focus {
 }
 
 #skills .box-item {
-  padding: 15px 0;
+  padding: 15px;
 }
 
 #skills .box-item .icon {
@@ -714,6 +715,7 @@ button:focus {
 #skills .box-item .text p {
   font-size: 14px;
   line-height: 26px;
+  text-align: justify;
 }
 
 #skills .box-item:hover .icon {
@@ -737,6 +739,10 @@ button:focus {
 
 #portfolio .mix {
   display: none;
+}
+
+#portfolio .mix p {
+  text-align: justify;
 }
 
 .controls {
@@ -836,9 +842,11 @@ button:focus {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  background-size: 100% 155%;
 }
 
-.awards-section .section-title, .awards-section .section-subtitle{
+.awards-section .section-title,
+.awards-section .section-subtitle {
   color: #fff;
 }
 
@@ -876,7 +884,7 @@ button:focus {
   color: #c2e0e2;
   margin-bottom: 20px;
 }
-@media (min-width: 576px) and (max-width: 768px){ 
+@media (min-width: 576px) and (max-width: 768px) {
   .awards-table .awards-details span {
     font-size: 35px;
   }
