@@ -406,6 +406,7 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
+  background-size: 100% 155%;
 }
 
 #main .overlay {
