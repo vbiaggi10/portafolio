@@ -1,4 +1,6 @@
 /* ------------------------------------- */
+
+
 /* TABLE OF CONTENTS
 /* -------------------------------------
   1. IMPORT GOOGLE FONTS
@@ -18,13 +20,18 @@
   11. FOOTER SECTION
     -11.1 COMING SOON PAGE
   ------------------------------------- */
+
+
 /* ==========================================================================
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
+
 body {
   font-family: "Poppins", sans-serif;
   color: #333;
@@ -43,9 +50,8 @@ p {
   line-height: 26px;
 }
 
-a:hover,
-a:focus {
-  color: #c2e0e2;
+a:hover, a:focus {
+  color: #5dbdc4;
 }
 
 a {
@@ -55,11 +61,7 @@ a {
   transition: all 0.2s linear;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -75,24 +77,24 @@ ul li {
   list-style: none;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: none;
   outline: none;
 }
 
 a:not([href]):not([tabindex]) {
-  color: #333;
-}
-
-a:not([href]):not([tabindex]):focus,
-a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: #fff;
+}
+
 
 /* ==========================================================================
    2.1 Section Title
    ========================================================================== */
+
 .section {
   padding: 80px 0;
 }
@@ -113,7 +115,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title span {
-  color: #c2e0e2;
+  color: #5dbdc4;
 }
 
 .section-header .section-subtitle {
@@ -127,13 +129,15 @@ a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #c2e0e2;
+  border-top: 2px solid #5dbdc4;
   margin-top: 15px;
 }
+
 
 /* ==========================================================================
    2.2 Buttons
    ========================================================================== */
+
 .btn {
   font-size: 14px;
   padding: 11px 40px;
@@ -148,26 +152,25 @@ a:not([href]):not([tabindex]):hover {
   display: inline-block;
 }
 
-.btn:focus,
-.btn:active {
+.btn:focus, .btn:active {
   box-shadow: none;
   outline: none;
   color: #fff;
 }
 
 .btn-common {
-  border: 1px solid #c2e0e2;
-  background: #c2e0e2;
+  border: 1px solid #5dbdc4;
+  background: #5dbdc4;
   position: relative;
-  color: #333;
+  color: #fff;
   z-index: 1;
   border-radius: 30px;
 }
 
 .btn-common:hover {
   color: #fff;
-  background: #5dbdc4;
-  border-color: #5dbdc4;
+  background: #408388;
+  border-color: #408388;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -183,7 +186,7 @@ a:not([href]):not([tabindex]):hover {
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #c2e0e2;
+  background-color: #5dbdc4;
 }
 
 .btn-lg {
@@ -210,9 +213,11 @@ button:focus {
   clear: both;
 }
 
+
 /* ==========================================================================
    2.3 Social Icons
    ========================================================================== */
+
 .social-icons {
   margin-top: 40px;
 }
@@ -233,11 +238,16 @@ button:focus {
   margin-bottom: 15px;
   border-radius: 50%;
   line-height: 40px;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   background: #ddd;
   font-size: 16px;
+}
+
+.social-icons ul li a .fa {
+  font-size: 40px;
+  margin: 10px;
 }
 
 .social-icons ul li a:hover {
@@ -308,9 +318,11 @@ button:focus {
   background: #0b7cff;
 }
 
+
 /* ==========================================================================
 	 2.4  Pre Loader
 	 ========================================================================== */
+
 #loader {
   position: fixed;
   top: 0;
@@ -329,12 +341,11 @@ button:focus {
   margin: 0px auto;
 }
 
-.double-bounce1,
-.double-bounce2 {
+.double-bounce1, .double-bounce2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #c2e0e2;
+  background-color: #5dbdc4;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -349,8 +360,7 @@ button:focus {
 }
 
 @-webkit-keyframes sk-bounce {
-  0%,
-  100% {
+  0%, 100% {
     -webkit-transform: scale(0);
   }
   50% {
@@ -359,8 +369,7 @@ button:focus {
 }
 
 @keyframes sk-bounce {
-  0%,
-  100% {
+  0%, 100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -370,9 +379,11 @@ button:focus {
   }
 }
 
+
 /* ========================================================================== 
   -2.5 Scroll To Up 
    ========================================================================== */
+
 .back-to-top {
   display: none;
   position: fixed;
@@ -385,28 +396,28 @@ button:focus {
   width: 36px;
   height: 36px;
   line-height: 36px;
-  color: #333;
+  color: #fff;
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #c2e0e2;
+  background-color: #5dbdc4;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
+
 /* ==========================================================================
    3. Main
    ========================================================================== */
+
 #main {
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068)
-    fixed no-repeat;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
-  background-size: 100% 155%;
 }
 
 #main .overlay {
@@ -415,7 +426,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #c2e0e2;
+  background: #5dbdc4;
   opacity: 0.9;
 }
 
@@ -457,12 +468,14 @@ button:focus {
 }
 
 #main .banner_bottom_btn i:hover {
-  color: #c2e0e2;
+  color: #5dbdc4;
 }
+
 
 /* ==========================================================================
    4. Navbar Style
    ========================================================================== */
+
 .navbar-brand {
   margin-left: 1rem;
   position: relative;
@@ -507,7 +520,7 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #c2e0e2 !important;
+  color: #5dbdc4 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link.active {
@@ -531,15 +544,13 @@ button:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
-.navbar-expand-lg .navbar-nav li a:focus {
-  color: #c2e0e2;
+.navbar-expand-lg .navbar-nav li a:hover, .navbar-expand-lg .navbar-nav li .active > a, .navbar-expand-lg .navbar-nav li a:focus {
+  color: #5dbdc4;
 }
 
 .navbar .nav-link.active {
   color: #fff !important;
-  background: #c2e0e2;
+  background: #5dbdc4;
 }
 
 .dropdown-toggle::after {
@@ -547,19 +558,21 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #c2e0e2;
+  border-color: #5dbdc4;
   border-radius: 50%;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #c2e0e2;
+  background: #5dbdc4;
 }
 
 .slicknav_menu {
   display: none;
 }
 
+
 /* only small tablets */
+
 @media (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
@@ -579,17 +592,16 @@ button:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #c2e0e2;
+    background: #5dbdc4;
     color: #fff;
   }
-  .slicknav_nav a:hover,
-  .slicknav_nav .active {
-    color: #c2e0e2;
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: #5dbdc4;
     background: #f8f9fa;
   }
   .slicknav_nav .dropdown li a.active {
     background: #f8f9fa;
-    color: #c2e0e2;
+    color: #5dbdc4;
   }
 }
 
@@ -601,9 +613,11 @@ button:focus {
   display: none;
 }
 
+
 /* ==========================================================================
   5. Services section
    ========================================================================== */
+
 .item-boxes {
   text-align: center;
   padding: 0px 15px;
@@ -629,7 +643,7 @@ button:focus {
 .item-boxes .icon i {
   font-size: 26px;
   line-height: 60px;
-  color: #c2e0e2;
+  color: #5dbdc4;
 }
 
 .item-boxes h4 {
@@ -639,24 +653,24 @@ button:focus {
 }
 
 .item-boxes:hover .icon {
-  background: #c2e0e2;
+  background: #5dbdc4;
 }
 
 .item-boxes:hover .icon i {
   color: #fff;
 }
 
+
 /* ==========================================================================
   6. Skills Section Style
    ========================================================================== */
+
 #skills {
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc)
-    fixed no-repeat;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
-  background-size: 100% 155%;
 }
 
 #skills .section-title {
@@ -678,11 +692,11 @@ button:focus {
 }
 
 #skills .box-item {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 #skills .box-item .icon {
-  border: 1px solid #c2e0e2;
+  border: 1px solid #5dbdc4;
   text-align: center;
   float: left;
   -webkit-transition: all 0.2s linear;
@@ -692,7 +706,7 @@ button:focus {
 }
 
 #skills .box-item .icon i {
-  color: #c2e0e2;
+  color: #5dbdc4;
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -706,7 +720,7 @@ button:focus {
 }
 
 #skills .box-item .text h4 {
-  color: #c2e0e2;
+  color: #5dbdc4;
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
@@ -716,20 +730,21 @@ button:focus {
 #skills .box-item .text p {
   font-size: 14px;
   line-height: 26px;
-  text-align: justify;
 }
 
 #skills .box-item:hover .icon {
-  background: #c2e0e2;
+  background: #5dbdc4;
 }
 
 #skills .box-item:hover .icon i {
   color: #ffffff;
 }
 
+
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
+
 #portfolios .mix {
   padding: 30px;
 }
@@ -742,8 +757,13 @@ button:focus {
   display: none;
 }
 
-#portfolio .mix p {
-  text-align: justify;
+#portfolio .portfolio-item .link {
+  padding-left: 0;
+  color: #5dbdc4;
+}
+
+#portfolio .portfolio-item .link:hover {
+  color: #408388;
 }
 
 .controls {
@@ -752,8 +772,8 @@ button:focus {
 }
 
 .controls .active {
-  color: #c2e0e2 !important;
-  border-color: #c2e0e2;
+  color: #5dbdc4 !important;
+  border-color: #5dbdc4;
   background: transparent;
 }
 
@@ -806,7 +826,7 @@ button:focus {
   height: 48px;
   width: 48px;
   line-height: 48px;
-  color: #c2e0e2;
+  color: #5dbdc4;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -821,12 +841,12 @@ button:focus {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #c2e0e2;
+  border: 1px solid #5dbdc4;
   border-radius: 50%;
 }
 
 .overlay .item-icon:hover {
-  background: #c2e0e2;
+  background: #5dbdc4;
   color: #fff;
 }
 
@@ -835,19 +855,19 @@ button:focus {
   opacity: 1;
 }
 
+
 /* ==========================================================================
 	9. Pricing Table
   ========================================================================== */
+
 #awards {
   background: url(../img/bg2.jpeg) fixed no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
-  background-size: 100% 155%;
 }
 
-.awards-section .section-title,
-.awards-section .section-subtitle {
+.awards-section .section-title, .awards-section .section-subtitle {
   color: #fff;
 }
 
@@ -882,9 +902,10 @@ button:focus {
   display: inline-block;
   font-size: 48px;
   font-weight: 400;
-  color: #c2e0e2;
+  color: #5dbdc4;
   margin-bottom: 20px;
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
   .awards-table .awards-details span {
     font-size: 35px;
@@ -905,16 +926,27 @@ button:focus {
   margin-top: 20px;
 }
 
+
 /* ==========================================================================
   14. Contact Us
   ========================================================================== */
+
+.contact-us {
+  text-align: center;
+}
+
 .contact-us h3 {
   font-size: 36px;
   margin-bottom: 45px;
 }
 
+.contact-us p{
+  font-size: 18px;
+}
+
 .contact-us p span {
-  color: #c2e0e2;
+  color: #5dbdc4;
+  font-size: 18px;
   padding-left: 10px;
 }
 
@@ -941,13 +973,12 @@ button:focus {
 .form-control:focus {
   box-shadow: none;
   color: #fff;
-  border-color: #c2e0e2;
+  border-color: #5dbdc4;
   background: transparent;
   outline: none;
 }
 
-.btn.disabled,
-.btn:disabled {
+.btn.disabled, .btn:disabled {
   opacity: 1;
 }
 
@@ -960,9 +991,11 @@ button:focus {
   color: #d9534f;
 }
 
+
 /* ==========================================================================
 15. Footer Style
  ========================================================================== */
+
 footer {
   background: #292f35;
   padding: 20px 0;
@@ -985,7 +1018,7 @@ footer {
 }
 
 .footer-links li a:hover {
-  color: #c2e0e2;
+  color: #5dbdc4;
 }
 
 .copyright {
@@ -1002,5 +1035,5 @@ footer {
 }
 
 .copyright p a:hover {
-  color: #c2e0e2;
+  color: #5dbdc4;
 }
