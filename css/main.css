@@ -1,6 +1,5 @@
 /* ------------------------------------- */
 
-
 /* TABLE OF CONTENTS
 /* -------------------------------------
   1. IMPORT GOOGLE FONTS
@@ -20,7 +19,6 @@
   11. FOOTER SECTION
     -11.1 COMING SOON PAGE
   ------------------------------------- */
-
 
 /* ==========================================================================
    1. IMPORT GOOGLE FONTS
@@ -50,7 +48,8 @@ p {
   line-height: 26px;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #5dbdc4;
 }
 
@@ -61,7 +60,11 @@ a {
   transition: all 0.2s linear;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -77,7 +80,8 @@ ul li {
   list-style: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -86,10 +90,10 @@ a:not([href]):not([tabindex]) {
   color: #fff;
 }
 
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
-
 
 /* ==========================================================================
    2.1 Section Title
@@ -133,7 +137,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: 15px;
 }
 
-
 /* ==========================================================================
    2.2 Buttons
    ========================================================================== */
@@ -152,7 +155,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   display: inline-block;
 }
 
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
   box-shadow: none;
   outline: none;
   color: #fff;
@@ -212,7 +216,6 @@ button:focus {
 .clear {
   clear: both;
 }
-
 
 /* ==========================================================================
    2.3 Social Icons
@@ -318,7 +321,6 @@ button:focus {
   background: #0b7cff;
 }
 
-
 /* ==========================================================================
 	 2.4  Pre Loader
 	 ========================================================================== */
@@ -341,7 +343,8 @@ button:focus {
   margin: 0px auto;
 }
 
-.double-bounce1, .double-bounce2 {
+.double-bounce1,
+.double-bounce2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -360,7 +363,8 @@ button:focus {
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(0);
   }
   50% {
@@ -369,7 +373,8 @@ button:focus {
 }
 
 @keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -378,7 +383,6 @@ button:focus {
     -webkit-transform: scale(1);
   }
 }
-
 
 /* ========================================================================== 
   -2.5 Scroll To Up 
@@ -407,13 +411,13 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-
 /* ==========================================================================
    3. Main
    ========================================================================== */
 
 #main {
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068) fixed no-repeat;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fp.jpeg?alt=media&token=cec50001-029c-46b2-acc7-c35cc98e1068)
+    fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -470,7 +474,6 @@ button:focus {
 #main .banner_bottom_btn i:hover {
   color: #5dbdc4;
 }
-
 
 /* ==========================================================================
    4. Navbar Style
@@ -544,7 +547,9 @@ button:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-expand-lg .navbar-nav li a:hover, .navbar-expand-lg .navbar-nav li .active > a, .navbar-expand-lg .navbar-nav li a:focus {
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li a:focus {
   color: #5dbdc4;
 }
 
@@ -558,18 +563,18 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #5dbdc4;
-  border-radius: 50%;
+  border: none;
 }
 
 .slicknav_menu .slicknav_icon-bar {
   background: #5dbdc4;
+  width: 1.525em;
+  height: 0.225em;
 }
 
 .slicknav_menu {
   display: none;
 }
-
 
 /* only small tablets */
 
@@ -595,7 +600,8 @@ button:focus {
     background: #5dbdc4;
     color: #fff;
   }
-  .slicknav_nav a:hover, .slicknav_nav .active {
+  .slicknav_nav a:hover,
+  .slicknav_nav .active {
     color: #5dbdc4;
     background: #f8f9fa;
   }
@@ -612,7 +618,6 @@ button:focus {
 .mobile-menu {
   display: none;
 }
-
 
 /* ==========================================================================
   5. Services section
@@ -660,13 +665,13 @@ button:focus {
   color: #fff;
 }
 
-
 /* ==========================================================================
   6. Skills Section Style
    ========================================================================== */
 
 #skills {
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc) fixed no-repeat;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfoliovbg.appspot.com/o/fb.jpeg?alt=media&token=de1f89f7-0a8d-4ec4-8f63-91dac29632dc)
+    fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -739,7 +744,6 @@ button:focus {
 #skills .box-item:hover .icon i {
   color: #ffffff;
 }
-
 
 /* ==========================================================================
   8. Portfolio Section
@@ -855,7 +859,6 @@ button:focus {
   opacity: 1;
 }
 
-
 /* ==========================================================================
 	9. Pricing Table
   ========================================================================== */
@@ -867,7 +870,8 @@ button:focus {
   position: relative;
 }
 
-.awards-section .section-title, .awards-section .section-subtitle {
+.awards-section .section-title,
+.awards-section .section-subtitle {
   color: #fff;
 }
 
@@ -926,7 +930,6 @@ button:focus {
   margin-top: 20px;
 }
 
-
 /* ==========================================================================
   14. Contact Us
   ========================================================================== */
@@ -940,7 +943,7 @@ button:focus {
   margin-bottom: 45px;
 }
 
-.contact-us p{
+.contact-us p {
   font-size: 18px;
 }
 
@@ -978,7 +981,8 @@ button:focus {
   outline: none;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
@@ -990,7 +994,6 @@ button:focus {
 .list-unstyled li {
   color: #d9534f;
 }
-
 
 /* ==========================================================================
 15. Footer Style
