@@ -10,7 +10,7 @@
   <meta name="author" content="Grayrids">
   <title>Valeria Biaggi</title>
 
-  <!-- Bootstrap CSS -->
+  <!-- CSS links -->
   <link rel="icon" type="image/png" sizes="96x96" href="./img/logo/logo.png">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -265,17 +265,20 @@
             <a class="filter btn btn-common" data-filter=".apis">
               Consumo de API's
             </a>
+            <a class="filter btn btn-common" data-filter=".bootstrap">
+              Bootstrap
+            </a>
             <a class="filter btn btn-common" data-filter=".vanillaJS">
               Vanilla JS
             </a>
-            <a class="filter btn btn-common" data-filter=".framework">
-              Framework
+            <a class="filter btn btn-common" data-filter=".materialize">
+              Materialize
             </a>
-            <!-- <a class="filter btn btn-common" data-filter=".libraries">
-              Librería
-            </a> -->
-            <a class="filter btn btn-common" data-filter=".management">
-              Gestión
+            <a class="filter btn btn-common" data-filter=".firebase">
+              Firebase
+            </a>
+            <a class="filter btn btn-common" data-filter=".react">
+              React
             </a>
           </div>
           <!-- Portfolio Controller/Buttons Ends-->
@@ -283,7 +286,78 @@
 
         <!-- Portfolio Recent Projects -->
         <div id="portfolio" class="row">
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix management framework vanillaJS">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix react firebase bootstrap">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/brainnetreact.png" alt="" />
+                <a class="overlay lightbox" href="img/portfolio/brainnetreact.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              <div class="container mt-3">
+                <h5>BRAINNET + REACT</h5>
+                <p>Red social educativa inspirada en BRAINNET. Desarrollada con React, una librería Javascript
+                  focalizada en el desarrollo de interfaces
+                  de usuario.</p>
+                <a class="" href="https://github.com/vbiaggi10/lim-2018-01-social-network-frameworks" target="_blank" class="col link">Repositorio</a>
+                <a href="https://vbiaggi10.github.io/lim-2018-01-social-network-frameworks/" target="_blank" class="col link">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix vanillaJS bootstrap firebase apis">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/reportel.png" alt="" />
+                <a class="overlay lightbox" href="img/portfolio/reportel.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              <div class="container mt-3">
+                <h5>REPORTEL</h5>
+                <p>Registra y visualiza las quejas de los usuarios de telefonía,
+                  televisión por cable o internet. Con el fin de que las operadorasse regulen y los usuarios tengan una
+                  mejor estabilidad en cuanto a las telecomunicaciones. </p>
+                <a href="https://github.com/vbiaggi10/Reportel" target="_blank" class="col link">Repositorio</a>
+                <a href="https://vbiaggi10.github.io/Reportel/src/splash.html" target="_blank" class="col link">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix vanillaJS bootstrap firebase">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/visitame.png" alt="" />
+                <a class="overlay lightbox" href="img/portfolio/visitame.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              <div class="container mt-3">
+                <h5>VISÍTAME</h5>
+                <p>Registro y control de los visitantes de un centro de trabajo a través de una plataforma virtual.
+                  Gracias al manejo de las capturas
+                  fotográficas de los usuarios, se podrá obtener un mejor control.</p>
+                <a href="https://github.com/vbiaggi10/lim-2018-01-ProyectoFinalCore" target="_blank" class="col link">Repositorio</a>
+                <a href="https://vbiaggi10.github.io/lim-2018-01-ProyectoFinalCore/src/" target="_blank" class="col link">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix apis vanillaJS materialize">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/adondecomer.png" alt="" />
+                <a class="overlay lightbox" href="img/portfolio/adondecomer.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              <div class="container mt-3">
+                <h5>A DONDE COMER</h5>
+                <p>aplicativo web en la que puedes visualizar y filtrar los restaurantes que se encuentran
+                  cerca de ti, además podrás obtener más información del restaurante para que sepas a donde comer.</p>
+                <a href="https://github.com/vbiaggi10/lim-2018-01-foodmap" target="_blank" class="col link">Repositorio</a>
+                <a href="https://vbiaggi10.github.io/lim-2018-01-foodmap/src/splash.html" target="_blank" class="col link">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix firebase bootstrap vanillaJS">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/portfolio/brainnet.png" alt="" />
@@ -302,43 +376,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix management vanillaJS framework apis">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="img/portfolio/reportel.png" alt="" />
-                <a class="overlay lightbox" href="img/portfolio/reportel.png">
-                  <i class="lnr lnr-eye item-icon"></i>
-                </a>
-              </div>
-              <div class="container mt-3">
-                <h5>REPORTEL</h5>
-                <p>Registra y visualiza las quejas de los usuarios de telefonía,
-                  televisión por cable o internet. Con el fin de que las operadorasse regulen y los usuarios tengan una
-                  mejor estabilidad en cuanto a las telecomunicaciones. </p>
-                <a href="https://github.com/vbiaggi10/Reportel" target="_blank" class="col link">Repositorio</a>
-                <a href="https://vbiaggi10.github.io/Reportel/src/splash.html" target="_blank" class="col link">Demo</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix management framework vanillaJS">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="img/portfolio/visitame.png" alt="" />
-                <a class="overlay lightbox" href="img/portfolio/visitame.png">
-                  <i class="lnr lnr-eye item-icon"></i>
-                </a>
-              </div>
-              <div class="container mt-3">
-                <h5>VISÍTAME</h5>
-                <p>Registro y control de los visitantes de un centro de trabajo a través de una plataforma virtual.
-                  Gracias al manejo de las capturas
-                  fotográficas de los usuarios, se podrá obtener un mejor control.</p>
-                <a href="https://github.com/vbiaggi10/lim-2018-01-ProyectoFinalCore" target="_blank" class="col link">Repositorio</a>
-                <a href="https://vbiaggi10.github.io/lim-2018-01-ProyectoFinalCore/src/" target="_blank" class="col link">Demo</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix management vanillaJS apis">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mix vanillaJS apis">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/portfolio/data-dashboard.png" alt="" />
@@ -355,24 +393,6 @@
                 <a href="https://github.com/vbiaggi10/lim-2018-05-bc-core-pm-datadashboard" target="_blank" class="col link">Repositorio</a>
                 <a href="hhttps://vbiaggi10.github.io/lim-2018-05-bc-core-pm-datadashboard/src/login.html" target="_blank"
                   class="col link">Demo</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix management framework apis vanillaJS">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="img/portfolio/adondecomer.png" alt="" />
-                <a class="overlay lightbox" href="img/portfolio/adondecomer.png">
-                  <i class="lnr lnr-eye item-icon"></i>
-                </a>
-              </div>
-              <div class="container mt-3">
-                <h5>A DONDE COMER</h5>
-                <p>A donde comer, una app en la que puedes visualizar y filtrar los restaurantes que se encuentran
-                  cerca de ti, además podrás obtener más información del restaurante y si se encuentra abierto o no,
-                  para que sepas a donde comer.</p>
-                <a href="https://github.com/vbiaggi10/lim-2018-01-foodmap" target="_blank" class="col link">Repositorio</a>
-                <a href="https://vbiaggi10.github.io/lim-2018-01-foodmap/src/splash.html" target="_blank" class="col link">Demo</a>
               </div>
             </div>
           </div>
