@@ -761,7 +761,7 @@ button:focus {
   display: none;
 }
 
-#portfolio .portfolio-item .link {
+#portfolios .link {
   padding-left: 0;
   color: #5dbdc4;
 }
