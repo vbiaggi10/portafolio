@@ -1,0 +1,26 @@
+{
+  "name": "vbiaggi",
+  "version": "1.0.0",
+  "description": "valeria's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbiaggi10/vbiaggi10.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "front-end",
+    "developer",
+    "mobile",
+    "web"
+  ],
+  "author": "Valeria Biaggi Gurreonero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbiaggi10/vbiaggi10.github.io/issues"
+  },
+  "homepage": "https://github.com/vbiaggi10/vbiaggi10.github.io#readme"
+}

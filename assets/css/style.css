@@ -833,7 +833,7 @@ transform: translate(-50%,-50%);
 }
 .bannner_leftpart .banner_name {
     text-transform: capitalize;
-    color: #0F0A0A;
+    color: #D96C06;
     font-size: 92px;
     margin-left: -9px;
     font-weight: 700;
@@ -877,11 +877,11 @@ p.banner_pera:after {
 
 .portfolio_btn.btn_yellow {
     margin-right: 26px;
-	box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-webkit-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
-	-moz-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-o-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
-	-ms-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
+	box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	-webkit-box-shadow:0px 8px 20px 0px rgba(34, 146, 164, 0.3); 
+	-moz-box-shadow:0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	-o-box-shadow:0px 8px 20px 0px rgba(34, 146, 164, 0.3); 
+	-ms-box-shadow:0px 8px 20px 0px rgba(34, 146, 164, 0.3); 
 	color: #fff;
 }
 .portfolio_btn.btn_yellow:hover {
@@ -900,11 +900,11 @@ p.banner_pera:after {
 }
 .portfolio_btn.btn_red:hover {
     background: #2292A4 ;
-	-webkit-box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-moz-box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-ms-box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-o-box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
+	-webkit-box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	-moz-box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	-ms-box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	-o-box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
+	box-shadow: 0px 8px 20px 0px rgba(34, 146, 164, 0.3);
 }
 .banner_img_wrapper {
     position: relative;
@@ -966,11 +966,11 @@ transform: scale(1)!important;
 
 .brc_hirebtn .portfolio_btn.btn_orange:hover {
     background: #0F0A0A;
-    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 200, 218, 0.3);
-    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 200, 218, 0.3);
-    -ms-box-shadow: 0px 8px 20px 0px rgba(0, 200, 218, 0.3);
-    -o-box-shadow: 0px 8px 20px 0px rgba(0, 200, 218, 0.3);
-    box-shadow: 0px 8px 20px 0px rgba(0, 200, 218, 0.3);
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(15, 10, 10, 0.3);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(15, 10, 10, 0.3);
+    -ms-box-shadow: 0px 8px 20px 0px rgba(15, 10, 10, 0.3);
+    -o-box-shadow: 0px 8px 20px 0px rgba(15, 10, 10, 0.3);
+    box-shadow: 0px 8px 20px 0px rgba(15, 10, 10, 0.3);
 	color:#fff;
 }
 .brc_hirebtn {
@@ -1137,7 +1137,7 @@ transform: scale(1)!important;
 	line-height: 1.3;
 	color: #0F0A0A;
 }
-.selfintro_section .right_section p.about_deatils {
+.selfintro_section .right_section p.about_details {
     margin-bottom: 20px;
 }
 .signature_box {
@@ -1160,7 +1160,7 @@ transform: scale(1)!important;
     overflow: hidden;
 	color: #0F0A0A;
 }
-.anout_section_btn .portfolio_btn.btn_yellow {
+.about_section_btn .portfolio_btn.btn_yellow {
     margin-right: 26px;
 }
 .selfintro_section .about_leftsection {
@@ -1221,7 +1221,7 @@ transform: scale(1)!important;
     border: 4px solid #BDBF09;
     z-index: -1;
 }
-.selfintro_section .left_deatils {
+.selfintro_section .left_details {
     position: absolute;
     top: 0;
     left: 0;
@@ -1238,7 +1238,7 @@ transform: scale(1)!important;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.about_leftsection.open_details .left_deatils {
+.about_leftsection.open_details .left_details {
     opacity: 1;
     visibility: visible;
 }
@@ -2898,7 +2898,7 @@ h2.project_heading:after {
 	.right_section h2.about_tophead {
     font-size: 30px;	
 	}
-.anout_section_btn .portfolio_btn.btn_yellow {
+.about_section_btn .portfolio_btn.btn_yellow {
     margin-right: 15px;
 }
 .portfolio_btn {
@@ -3312,7 +3312,7 @@ p.banner_pera {
 .right_section h2.about_tophead {
     font-size: 26px;
 }
-.anout_section_btn .portfolio_btn.btn_yellow {
+.about_section_btn .portfolio_btn.btn_yellow {
     margin-right: 0px;
 }
 .personal_details h1.ps_name {
@@ -3324,7 +3324,7 @@ p.banner_pera {
 .personal_details ul.social-links {
    display:none;
 }
-.selfintro_section .left_deatils {
+.selfintro_section .left_details {
    
     padding: 15px 15px;
 }
